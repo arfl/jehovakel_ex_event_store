@@ -40,7 +40,7 @@ jobs:
           elixir-version: ${{ env.ELIXIR_VERSION }}
           otp-version: ${{ env.ERLANG_VERSION }}
       - name: Restore Elixir dependencies cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             deps
